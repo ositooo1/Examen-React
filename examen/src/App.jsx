@@ -15,10 +15,11 @@ console.log(clickCount);
 
     function App(){
 const [valor,setValor] = useState(0)
+setValor = math.floor(math.random())
       return(
         
 <div className='tablero'>
-<div className='tesoro' onClick={change}>□</div>
+<div className='1' onClick={change}>□</div>
 <div className='2' onClick={change}>□</div>
 <div className='3' onClick={change}>□</div>
 <div className='4' onClick={change}>□</div>
