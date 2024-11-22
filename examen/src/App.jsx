@@ -15,7 +15,6 @@ console.log(clickCount);
 
     function App(){
 const [valor,setValor] = useState(0)
-setValor = math.floor(math.random())
       return(
         
 <div className='tablero'>
